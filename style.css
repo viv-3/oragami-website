@@ -1,0 +1,35 @@
+body{
+    background:rgb(155,152,214);
+}
+h1{
+    text-align: center;
+    color: #000080;
+}
+.header{
+    border: double;
+    display: flex;
+    justify-content: space-between;
+    background-color: #9b98d6;
+}
+.description{
+    margin: 0px;
+    text-align: center;
+    background-color: #ffb5fb;
+}
+img {
+    padding: 20px;
+    border: solid;
+    border-radius: 30px;
+    border-color: white;
+}
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.grid img {
+    padding: 20px;
+    border: solid;
+    border-radius: 20px;
+    border-color: white;
+}
