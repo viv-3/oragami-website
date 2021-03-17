@@ -1,26 +1,34 @@
 body{
-    background:rgb(155,152,214);
+    background:#8C7A6B;
+    color: #D9CAB3
+    
 }
 h1{
     text-align: center;
-    color: #000080;
+    color: #BC8034;
+    
 }
 .header{
-    border: double;
+    
+    margin: 10mm;
+    background-color: #5E0B15;
     display: flex;
-    justify-content: space-between;
-    background-color: #9b98d6;
+    justify-content: center;
+    padding-top: 1%;
+    font-family: fantasy;
+    
 }
 .description{
     margin: 0px;
     text-align: center;
-    background-color: #ffb5fb;
+    background-color: #90323D;
+    font-family: fantasy;
 }
 img {
     padding: 20px;
     border: solid;
     border-radius: 30px;
-    border-color: white;
+    border-color: #D9CAB3;
 }
 .grid{
     display: flex;
@@ -31,5 +39,5 @@ img {
     padding: 20px;
     border: solid;
     border-radius: 20px;
-    border-color: white;
+    border-color:#D9CAB3;
 }
